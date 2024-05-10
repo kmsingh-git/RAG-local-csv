@@ -11,6 +11,7 @@ Exploration of local RAG capabilities on CSV data
 
 Is text split and vectorization really needed even for already tabular data? Say you have 20 columns, and after one hot encoding, say 100. That's not a lot. So maybe you don't need this
 
+- 
     - PromptTemplate - {context} and {question} format
     - QA Chain
 
